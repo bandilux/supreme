@@ -122,7 +122,7 @@ client.on('message', message =>{
 });    
    
   client.on('message', message => {    
-    if(message.content.startsWith('v!mass')) {
+    if(message.content.startsWith('s!mass')) {
     if(message.author.id === "385792242226298896" ||
 message.author.id === "405337137735663618"){
        let args = message.content.split(" ").slice(1);         
@@ -136,15 +136,15 @@ member.send(reason)
 message.delete() }})}}} });
 
 client.on('message', msg => {
-    if (msg.content === 'v!invite') {
-      msg.channel.send('Invite **Elite Supreme** https://discord.gg/VM4E7kH:tada:');
+    if (msg.content === 's!invite') {
+      msg.channel.send('Invite **Supreme Elite** https://discord.gg/8UnNsz:tada:');
       msg.channel.
     }
   });
 
 client.on('message', msg => {
-    if (msg.content === 'v!support') {
-      msg.channel.send('support server ---> https://discord.gg/r5NgFGZ');
+    if (msg.content === 's!support') {
+      msg.channel.send('support server ---> https://discord.gg/8UnNsz');
     }
   });
 
